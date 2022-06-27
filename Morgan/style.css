@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  height: 4em;
+  background-color: #333;
+}
+
+ul.topnav h1 {
+  margin-top: 10px;
+  color: white;
+}
+
+ul.topnav li {
+  float: right;
+}
+
+ul.topnav li a {
+  display: block;
+  color: rgb(100, 180, 226);
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: rgb(100, 180, 226);
+  color: white;
+}
+
+ul.topnav li a.active {
+  background-color: rgb(100, 180, 226);
+  color: white;
+}
+
+ul.topnav li.nav-header {
+  float: left;
+}
+
+.content-box {
+  height: 5vh;
+  width: 95%;
+  display: flex;
+  padding: 2rem 2rem;
+}
+
+.table-box {
+  border: none;
+  margin-top: 4rem;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: 2rem;
+  width: 96%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+tr {
+  height: 4em;
+}
+
+tr:hover {
+  background-color: rgb(100, 180, 226);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Height of the footer */
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(117, 115, 115);
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .nav-right {
+    float: none;
+  }
+}
