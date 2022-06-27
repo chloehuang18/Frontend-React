@@ -7,7 +7,7 @@ ul.topnav {
   margin: 0;
   padding: 20px;
   overflow: hidden;
-  height: 4em;
+  height: 3em;
   background-color: #333;
 }
 
@@ -50,6 +50,7 @@ ul.topnav li.nav-header {
 }
 
 .table-box {
+  display: flex;
   border: none;
   margin-top: 4rem;
 }
